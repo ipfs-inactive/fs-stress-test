@@ -25,7 +25,7 @@ test_expect_success "populate shallow and small" '
 '
 
 test_expect_success "populate deep and small" '
-  random-files --dirs 5 --files 10 --depth 6 --filesize 1024 expected2 &&
+  random-files --dirs 6 --files 10 --depth 6 --filesize 1024 expected2 &&
   add_and_get expected2 actual2
 '
 
