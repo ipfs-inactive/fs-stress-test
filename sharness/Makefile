@@ -1,5 +1,5 @@
 T = $(sort $(wildcard t[0-9][0-9][0-9][0-9]-*.sh))
-BINS = bin/ipfs bin/random bin/random-files
+BINS = bin/ipfs bin/random-files
 SHARNESS = lib/sharness/sharness.sh
 
 all: clean deps $(T) aggregate

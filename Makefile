@@ -1,4 +1,4 @@
-BINS = bin/ipfs bin/random bin/random-files
+BINS = bin/ipfs bin/random-files
 
 all: deps
 
@@ -12,10 +12,6 @@ bins: $(BINS)
 bin/ipfs:
 	# TODO: fix ipfs installation
 	cp `which ipfs` bin/ipfs
-
-bin/random:
-	# TODO: fix random installation
-	cp `which random` bin/random
 
 bin/random-files:
 	# TODO: fix random-files installation

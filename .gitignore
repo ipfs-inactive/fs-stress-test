@@ -1,3 +1,2 @@
-ipfs*
-random*
-random-files*
+bin/ipfs
+bin/random-files
