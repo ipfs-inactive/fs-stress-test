@@ -5,12 +5,13 @@ This repo will stress test IPFS filesystem capabilities.
 The target goals are:
 
 1. pass simple (1GB+) randomized tests
-2. pass large (1TB+) randomized tests
+2. pass medium (1TB+) randomized tests
 3. pass various real workloads:
   - lots of docs
   - containers and VMs
   - videos
   - DBs
+4. pass large (1PB+) randomized tests
 
 (today we're at 1.)
 
