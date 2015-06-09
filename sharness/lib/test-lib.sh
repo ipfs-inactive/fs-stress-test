@@ -34,4 +34,5 @@ SHARNESS_LIB="lib/sharness/sharness.sh"
 ipfs_init() {
   export IPFS_PATH="$(pwd)/.ipfs"
   ipfs init -b 1024 >/dev/null
+  ipfs bootstrap rm --all >/dev/null # clear bootstrap list.
 }
